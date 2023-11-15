@@ -16,10 +16,10 @@ export const Header = ({ initialCount }: CounterProps) => {
                     <Nav.Link as={NavLink} to="/usestate">State</Nav.Link>
                     <Nav.Link as={NavLink} to="/usereducer">Reducer</Nav.Link>
                     <Nav.Link as={NavLink} to="/contextapi">Context</Nav.Link>
-                    <Nav.Link as={NavLink} to="/localstorage">Local</Nav.Link>
+                    <Nav.Link as={NavLink} to="/localstorage">Local Storage</Nav.Link>
                     <Nav.Link as={NavLink} to={`/useparams/${initialCount}`}>Params</Nav.Link>
                     <Nav.Link as={NavLink} to="/zustand">Zustand</Nav.Link>
-                    <Nav.Link as={NavLink} to="/redux">RTK</Nav.Link>
+                    <Nav.Link as={NavLink} to="/redux">Redux</Nav.Link>
                     {/* <Nav.Link as={NavLink} to="/useeffect">Effects</Nav.Link> */}
                     {/* <Nav.Link as={NavLink} to="/usememo">Memos</Nav.Link> */}
                 </Nav>

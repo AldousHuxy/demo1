@@ -8,7 +8,7 @@ export const Home = () => {
                 <Card.Title className="bg-light text-center p-2">Lesson Plan</Card.Title>
                 <Card.Body>
                     <Card.Text>
-                        <div>How do we manage the state of application in React?</div>
+                        <div>How do we manage the state of our application in React?</div>
                     </Card.Text>
                     <Card.Text>
                         <h5>Lesson 1 - useState</h5>
